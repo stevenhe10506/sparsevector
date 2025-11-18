@@ -1,0 +1,21 @@
+Package: sparsevector
+Title: Sparse Numeric Vectors and Utilities
+Version: 0.0.0.9000
+Authors@R: 
+    person("Steven", "He", email = "youremail@utexas.edu", 
+           role = c("aut", "cre"))
+Description: Provides an S4 class 'sparse_numeric' for representing
+    sparse numeric vectors, along with methods for basic operations
+    such as mean, standardization, norms, plotting, and more.
+    Designed originally for an advanced R programming assignment.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    methods,
+    stats,
+    graphics
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
