@@ -28,8 +28,7 @@ It stores only non-zero values and their positions, making it memory-efficient f
 You can install the development version of sparsevector like so:
 
 install.packages("devtools")
-devtools::install_github("YOURNAME/sparsevector")
-Replace `YOURNAME` with your GitHub username.
+devtools::install_github("stevenhe10506/sparsevector")
 
 ## Example
 

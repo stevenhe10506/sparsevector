@@ -19,8 +19,7 @@ memory-efficient for high-dimensional vectors.
 You can install the development version of sparsevector like so:
 
 install.packages(“devtools”)
-devtools::install_github(“YOURNAME/sparsevector”) Replace `YOURNAME`
-with your GitHub username.
+devtools::install_github(“stevenhe10506/sparsevector”)
 
 ## Example
 
