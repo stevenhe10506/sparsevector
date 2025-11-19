@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/stevenhe10506/sparsevector/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stevenhe10506/sparsevector/actions/workflows/R-CMD-check.yaml)
+[![check-standard](https://github.com/stevenhe10506/sparsevector/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/stevenhe10506/sparsevector/actions/workflows/check-standard.yaml)
 <!-- badges: end -->
 
 `sparsevector` provides an efficient S4 implementation of sparse numeric
@@ -26,6 +28,11 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(sparsevector)
+#> 
+#> Attaching package: 'sparsevector'
+#> The following object is masked from 'package:base':
+#> 
+#>     norm
 
 x <- c(0, 3, 0, 0, 5, 0)
 sx <- as(x, "sparse_numeric")
